@@ -1,0 +1,11 @@
+certifi==2020.6.20
+numpy==1.19.3
+kiwisolver==1.2.0
+matplotlib==3.2.1
+mlxtend==0.17.2
+pandas==1.0.4
+pydotplus==2.0.2
+scikit-learn==0.23.1
+scipy==1.4.1
+threadpoolctl==2.1.0
+wincertstore==0.2
