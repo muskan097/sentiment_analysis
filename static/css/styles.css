@@ -1,0 +1,27 @@
+body {
+   background-image: url({{ url_for('static', filename='/static/images/Capture2.jpg') }})
+    text-align: center;
+}
+
+.navbar {
+    background-color: Black
+    font-family: Cooper Black;
+    font-size: 300%;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #f0f0f0;}
+
+h1 {
+    border: 2px #eee solid;
+    font-family: Cooper Black;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}
