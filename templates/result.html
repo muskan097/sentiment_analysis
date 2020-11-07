@@ -1,24 +1,40 @@
-<!DOCTYPE html>
+<html lang="en">
 
-<html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-        <title>Restaurant Review  Sentiment Analysis</title>
-        <link rel="shortcut icon" href="{{ url_for('static', filename='food-favicon.ico') }}">
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
-		<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
-		<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
-	</head>
 
-	<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
 
-		<!-- Website Title -->
-    	<div class="container">
-            <h2 class='container-heading'><span class="heading_font">Restaurant Review Sentiment Analysis</h2>
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type=text/css href="{{url_for('static',filename='css/styles.css')}}">
+    <style>
+	body
+	{
+	background-image:url({{url_for('static',filename='images/Capture2.jpg')}});
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	}
+    </style>
+     
+
+</head>
+    <!-- css -->
+    
+    <body>
+        <div style="text-align: center;">
+        <h1>Restaurant Review Sentiment Analysis </h1>
+        </div>
+        <!-- Website Title -->
+        <div class="container">
             <div class='description'>
-    			<p>A Machine Learning Web App</p>
-    		</div>
-    	</div>
+        		        <p>A Machine Learning Web App.</p>
+        	</div>
+        </div>
 
 		<!-- Result -->
 		<div class="results">
