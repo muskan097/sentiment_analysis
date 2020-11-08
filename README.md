@@ -23,7 +23,7 @@ The data in form of customers' reviews is unstructured. So to analyse this data,
 Data Preprocessing: At first, the data is kept with only alphabet, all other numbers and special characters are replaced by blanks. Then, word with no meaning are removed called stopwords. NLTK has a list of stopwords. 
 Next, the words are grouped together by removing the inflectional endings so they can be analysed as single term. At last, we used Tf-Idf vectorizer to transform text into a meaningful representation of numbers.
 
-Training the model: Trained the structured data on Multinomial Naive Bayes. We got R squared value of 0.839 and MAE 1140. Saved the model into pickle file.
+Training the model: Trained the structured data on Multinomial Naive Bayes.  Saved the model into pickle file.
 
 Deployment on Heroku: Deployed the model on Heroku platform connecting Github Profile.
 
@@ -32,7 +32,7 @@ Deployment on Heroku: Deployed the model on Heroku platform connecting Github Pr
 ## Demo
 Link: [https://rev-sentiment-analysis.herokuapp.com/](https://rev-sentiment-analysis.herokuapp.com/)
 
-[![](https://i.imgur.com/gCikoM2.gifv)](https://rev-sentiment-analysis.herokuapp.com/)
+[![GIF](https://i.imgur.com/gCikoM2.gifv)](https://rev-sentiment-analysis.herokuapp.com/)
 
 
 
