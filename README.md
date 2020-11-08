@@ -66,7 +66,7 @@ Deployment on Heroku: Deployed the model on Heroku platform connecting Github Pr
 ## Demo
 Link: [https://rev-sentiment-analysis.herokuapp.com/](https://rev-sentiment-analysis.herokuapp.com/)
 
-[![](<blockquote class="imgur-embed-pub" lang="en" data-id="a/oEoqYaU"  ><a href="//imgur.com/a/oEoqYaU"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)](https://flightsfareprediction.herokuapp.com/)
+[![](https://imgur.com/gCikoM2)](https://flightsfareprediction.herokuapp.com/)
 
 
 
